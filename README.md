@@ -10,24 +10,6 @@ A Machine Learning web application that classifies **SMS/Email messages as Spam 
 
 ---
 
-## 📌 Table of Contents
-
-- [About the Project](#-about-the-project)
-- [Demo](#-demo)
-- [Tech Stack](#-tech-stack)
-- [Project Structure](#-project-structure)
-- [Dataset](#-dataset)
-- [How It Works](#-how-it-works)
-- [Installation](#-installation)
-- [Usage](#-usage)
-- [Model Performance](#-model-performance)
-- [Screenshots](#-screenshots)
-- [Future Improvements](#-future-improvements)
-- [Author](#-author)
-- [License](#-license)
-
----
-
 ## 🧠 About the Project
 
 Spam messages are one of the biggest problems in digital communication. This project uses **Natural Language Processing (NLP)** techniques and a **Machine Learning classifier** to automatically detect whether a given message is **Spam** or **Ham (legitimate)**.
@@ -42,4 +24,21 @@ The model is trained on a labeled SMS dataset, converted into numerical features
 
 **Try it locally:**
 ```bash
-streamlit run app.py
+Project Structure
+
+EMAIL-SPAM-CLASSIFIER-ML-MINI-PROJECT/
+│
+├── app.py                          # Streamlit web application
+├── sms-spam-detection.ipynb        # Model training notebook
+├── model.pkl                       # Trained ML model
+├── vectorizer.pkl                  # TF-IDF vectorizer
+├── spam.csv                        # Dataset (SMS Spam Collection)
+├── requirements.txt                # Python dependencies
+├── nltk.txt                        # NLTK resources required
+├── setup.sh                        # Setup script (for deployment)
+├── Procfile                        # Deployment config (Heroku/Render)
+├── README.md                       # Project documentation
+├── .gitignore                      # Git ignore rules
+│
+├── AI project ppt.pptx             # Project presentation
+└── ai project report group 9.pdf   # Detailed project report
